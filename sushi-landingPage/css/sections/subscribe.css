@@ -1,0 +1,26 @@
+.subscription{
+    padding: 64px;
+    background-color: var(--primary-color);
+    background-image: url(../../assets/subscribe_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    overflow: hidden;
+}
+.subscription h2{
+    font-size: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 123px;
+    color: #fff;
+    text-align: center;
+}
+.subscription p{
+    font-size: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 123px;
+    color: #fff;
+    text-align: center;
+}
