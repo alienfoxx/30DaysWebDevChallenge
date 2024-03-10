@@ -104,6 +104,23 @@ a {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+.credite{
+
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  margin: 16px 0 20px 0;
+}
+.credite h4{
+  font-family: var(--plus-jakarta-sans);
+  color: var(--primary-color);
+}
+.credite h4 a{
+  color: #020202;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 23px;
+}
 
 /* START: about us media queries */
 @media screen and (max-width: 1024px) {
