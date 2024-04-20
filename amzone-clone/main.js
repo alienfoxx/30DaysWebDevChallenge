@@ -28,3 +28,12 @@ function changeSlide() {
   images[currentImg].style.display = "block";
 }
 changeSlide();
+
+const scrollContainer = document.querySelectorAll(".products");
+
+for (const product of scrollContainer) {
+  product.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    product.scrollLeft += event.deltaY;
+  });
+}
