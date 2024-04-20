@@ -1,0 +1,126 @@
+.cart {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+.cart-lef {
+  background: #fff;
+  padding: 20px;
+}
+.cart-lef h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.cart-lef hr {
+  border: none;
+  height: 1px;
+  background: #dadada;
+}
+
+.product-cart-list {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 24px 0 12px 12px;
+}
+.product-cart-title-price {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+.product-cart-best-seller {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.product-cart-best-seller span {
+  color: #fff;
+  font-size: 13px;
+  background: #c45500;
+  border-radius: 3px;
+  padding: 3px 8px;
+  margin-right: 3px;
+}
+.cart-stock {
+  font-size: 13px;
+  color: #007600;
+  margin: 4px 0;
+}
+.cart-delivery {
+  font-size: 15px;
+}
+.cart-returns {
+  font-size: 15px;
+  color: #007185;
+  font-weight: 400;
+}
+.cart-gift {
+  color: #494949;
+  font-size: 13px;
+  margin: 3px 0;
+}
+.cart-gift  span{
+    color: #007600;
+}
+.product-cart-aspect{
+    max-width: 150px;
+    display: grid ;
+    grid-template-columns:  auto auto;
+    row-gap: 3px;
+     font-size: 13px;
+     margin: 7px 0;
+}
+.cart-list-action{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 14px;
+    color: #007185;
+}
+.cart-list-action hr{
+    height: 20px;
+    width: 1px;
+    background: #cfcfcf;
+}
+.cart-list-action select{
+    padding: 5px;
+    border-radius: 5px;
+    background: #f3f3f3;
+}
+.cart-list-subtotal{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cart-right{
+    background-color: #fff;
+    padding: 20px;
+     max-height: 220px;
+     min-width: 280px;
+}
+.cart-free-delivery{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.card-subtotal{
+margin-top: 20px;
+font-size: 18px;
+font-weight: 500;
+}
+.cart-right-gift{
+margin: 7px 0;
+font-size: 14px;
+}
+.cart-right button{
+    width: 100%;
+    height: 35px;
+    margin: 15px 0;
+    background: #ffd814;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-right button:hover{
+    background: #ebc712;
+}
