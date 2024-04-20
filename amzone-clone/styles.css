@@ -241,3 +241,15 @@ nav {
    font-size: 15px;
    font-weight: 400;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    background-color: #131921;
+    padding: 20px 60px;
+}
+footer a:hover{
+    color: #be0b3b;
+    
+}
