@@ -214,3 +214,30 @@ body {
 .product-footer {
   margin-top: 100px;
 }
+
+/*----------- media query------------ */
+@media only screen and (max-width: 900px) {
+  .product-display {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product-icons {
+    display: none;
+  }
+  .product-main-image {
+    width: 100%;
+    padding: 20px;
+  }
+  .option{
+    padding: 6px 8px;
+  }
+  .option p{
+    display: none;
+  }
+  .product-d-purchase{
+    max-width: 90%;
+    margin: 20px auto 10px;
+  }
+}
